@@ -4,7 +4,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>initial project</div>
+      <h1 className="text-3xln underline text-mintgreen font-Montserrat font-normal">
+        Hello world!
+      </h1>
     </div>
   );
 }
