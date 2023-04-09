@@ -1,6 +1,6 @@
-import React from "react";
+import React, { FC } from "react";
 
-const Heading = () => {
+const Heading: React.FC = () => {
   return <h1 className="text-mintgreen font-bold">Hello world</h1>;
 };
 
