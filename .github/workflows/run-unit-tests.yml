@@ -1,8 +1,7 @@
 name: Run Unit tests
 on:
   pull_request:
-    branches:
-      - "*"
+    branches: ["dev"]
 jobs:
   run-test:
     runs-on: ubuntu-latest
