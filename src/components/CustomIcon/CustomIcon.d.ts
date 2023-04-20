@@ -1,6 +1,6 @@
 declare namespace ICusomIcon {
   interface IProps {
-    iconName: "add" | "delete";
+    iconName: "add";
     iconSize?: "sm" | "md" | "lg";
   }
 }
