@@ -10,6 +10,12 @@ export default {
       },
       mintgreen: {
         DEFAULT: "#8DD3BB",
+        100: "#9BE0C8",
+        200: "#82CBB2",
+      },
+      netural: {
+        "gray-1": "#D2D1D3",
+        "gray-5": "#8F8C91",
       },
       Slamon: {
         DEFAULTL: "#FF868",
@@ -36,7 +42,11 @@ export default {
       Montserrat: ["Montserrat"],
       Tradegothic: ["Tradegothic"],
     },
-    extend: {},
+    extend: {
+      borderRadius: {
+        xs: ".25rem",
+      },
+    },
   },
   plugins: [],
 };
