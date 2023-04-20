@@ -5,7 +5,9 @@ import classNames from "classnames";
 const CustomIcon: FC<ICusomIcon.IProps> = ({ iconName, iconSize = "md" }) => {
   const iconSizeClass = classNames(styles[iconSize]);
   return (
-    <span className={`icon-${iconName} ${iconSizeClass} text-black `}></span>
+    <span
+      className={`icon-${iconName} ${iconSizeClass} text-inherit font-bold`}
+    ></span>
   );
 };
 
