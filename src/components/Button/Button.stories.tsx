@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import Button from ".";
-
+import CustomIcon from "../CustomIcon";
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
   title: "Example/Button",
@@ -66,5 +66,8 @@ export const Default: Story = {
     type: "button",
     children: "button",
     iconOnly: false,
+    renderIcon: () => {
+      return <CustomIcon iconSize="md" iconName="add" />;
+    },
   },
 };

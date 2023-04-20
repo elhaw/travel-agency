@@ -7,6 +7,7 @@ declare module IButton {
     iconPosition?: "left" | "right" | "none";
     iconOnly: boolean;
     type: "submit" | "reset" | "button";
+    renderIcon: () => ReactNode;
     children: ReactNode;
   }
 }
