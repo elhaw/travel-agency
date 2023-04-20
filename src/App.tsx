@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-3xln underline text-mintgreen font-Montserrat font-normal">
-        Hello worl
+        Hello world!
       </h1>
     </div>
   );
