@@ -6,7 +6,7 @@
 // button type, handler function on click , */
 
 .btn {
-  @apply text-base text-black font-medium capitalize flex items-center;
+  @apply text-base text-black font-medium capitalize flex items-center rounded-xs;
 }
 .size-sm {
   @apply p-2;
@@ -18,12 +18,24 @@
 .size-lg {
   @apply py-2 px-4;
 }
+/* Filled button style */
 .filled {
   @apply bg-mintgreen;
+  &:disabled {
+    @apply bg-netural-gray-1 text-netural-gray-5 cursor-not-allowed;
+  }
+  &:hover:not(:disabled) {
+    @apply bg-mintgreen-100;
+  }
+  &:focus:not(:disabled) {
+    @apply outline-mintgreen outline outline-mintgreen outline-offset-1;
+  }
 }
 .outlined {
   @apply bg-white border border-mintgreen border-solid;
 }
-.ghost {
+.gohst {
   @apply bg-white border-none;
 }
+
+/* styles for disabled state */

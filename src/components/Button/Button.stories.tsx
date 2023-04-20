@@ -60,6 +60,7 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/7.0/react/writing-stories/args
 export const Default: Story = {
   args: {
+    disabled: false,
     size: "md",
     iconPosition: "left",
     variant: "filled",
@@ -67,7 +68,7 @@ export const Default: Story = {
     children: "button",
     iconOnly: false,
     renderIcon: () => {
-      return <CustomIcon iconSize="md" iconName="add" />;
+      return <CustomIcon iconSize="sm" iconName="add" />;
     },
   },
 };
