@@ -1,0 +1,11 @@
+.sm {
+  @apply text-lg;
+}
+
+.md {
+  @apply text-2xl;
+}
+
+.lg {
+  @apply text-4xl;
+}
