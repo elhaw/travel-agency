@@ -2,10 +2,10 @@ import classNames from "classnames";
 import { FC } from "react";
 import { IButton } from "./Button";
 import styles from "./Button.module.css";
-import CustomIcon from "../CustomIcon";
 const Button: FC<IButton.IProps> = ({
   size = "lg",
   iconPosition = "left",
+  renderIcon,
   iconOnly = false,
   variant,
   type = "button",
@@ -18,9 +18,9 @@ const Button: FC<IButton.IProps> = ({
   const hideButtonText = iconOnly === false;
   return (
     <button onClick={onClick} className={buttonClasses} type={type}>
-      {iconPosition === "left" && <CustomIcon iconSize="sm" iconName="add" />}
+      {iconPosition === "left" && renderIcon() }
       {hideButtonText ? <span>{children}</span> : null}
-      {iconPosition === "right" && <CustomIcon iconSize="sm" iconName="add" />}
+      {iconPosition === "right" && renderIcon() }
     </button>
   );
 };
