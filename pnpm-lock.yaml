@@ -16,6 +16,7 @@ specifiers:
   '@vitejs/plugin-react': ^3.1.0
   '@vitest/ui': ^0.29.8
   autoprefixer: ^10.4.14
+  classnames: ^2.3.2
   jsdom: ^21.1.1
   msw: ^1.2.1
   postcss: ^8.4.21
@@ -29,6 +30,7 @@ specifiers:
   vitest: ^0.29.8
 
 dependencies:
+  classnames: 2.3.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -3729,6 +3731,10 @@ packages:
     resolution: {integrity: sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==}
     engines: {node: '>=8'}
     dev: true
+
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: false
 
   /clean-stack/2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
