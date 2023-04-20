@@ -1,0 +1,29 @@
+/* // Button size : small -md  large
+// filled - outlined - ghost ( border and background color)
+// buttons may have icons on the left or right 
+// buttons only with icon
+// hover, focus,pressed, dissabled
+// button type, handler function on click , */
+
+.btn {
+  @apply text-base text-black font-medium capitalize flex items-center;
+}
+.size-sm {
+  @apply p-2;
+}
+.size-md {
+  @apply py-2 px-3;
+}
+
+.size-lg {
+  @apply py-2 px-4;
+}
+.filled {
+  @apply bg-mintgreen;
+}
+.outlined {
+  @apply bg-white border border-mintgreen border-solid;
+}
+.ghost {
+  @apply bg-white border-none;
+}
