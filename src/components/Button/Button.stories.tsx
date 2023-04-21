@@ -29,6 +29,10 @@ const meta = {
         lg: "lg",
       },
     },
+    renderIcon: {
+      description:
+        "The renderIcon functionality of a button component uses a technique called render props to allow the passing of an icon component to the button.",
+    },
     variant: {
       control: {
         type: "select",
