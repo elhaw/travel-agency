@@ -1,0 +1,35 @@
+.font-xs {
+  @apply text-xs;
+}
+
+.font-sm {
+  @apply text-sm;
+}
+
+.font-base {
+  @apply text-base;
+}
+
+.font-lg {
+  @apply text-lg;
+}
+
+.font-xl {
+  @apply text-xl;
+}
+
+.font-2xl {
+  @apply text-2xl;
+}
+
+.font-3xl {
+  @apply text-3xl;
+}
+
+.font-4xl {
+  @apply text-4xl;
+}
+
+.font-5xl {
+  @apply text-5xl;
+}

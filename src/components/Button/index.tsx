@@ -21,7 +21,7 @@ const Button: FC<IButton.IProps> = ({
     <button
       disabled={disabled}
       onClick={onClick}
-      className={buttonClasses}
+      className={`${buttonClasses} w-full justify-center flex`}
       type={type}
     >
       {iconPosition === "left" && renderIcon && renderIcon()}

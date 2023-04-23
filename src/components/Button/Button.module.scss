@@ -6,7 +6,7 @@
 // button type, handler function on click , */
 
 .btn {
-  @apply text-base text-black font-medium capitalize flex items-center rounded-xs;
+  @apply text-base text-black font-medium capitalize rounded-xs;
 }
 .size-sm {
   @apply p-2;
