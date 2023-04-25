@@ -6,10 +6,10 @@ import classNames from "classnames";
 const Typography: React.FC<ITypography.IProps> = ({
   children,
   fontSize = "2xl",
-  className = "",
   htmlTag: HtmlTag,
   fontFamily,
   fontWeight = "normal",
+  varient,
 }) => {
   const fontClassNames = classNames({
     "font-Montserrat": fontFamily === "Montserrat",
@@ -28,8 +28,15 @@ const Typography: React.FC<ITypography.IProps> = ({
     "text-4xl": fontSize === "4xl",
     "text-3xl": fontSize === "3xl",
     "text-2xl": fontSize === "2xl",
+    //variant
   });
-  return <HtmlTag className={fontClassNames}> {children}</HtmlTag>;
+  const varientClassName = styles[`${varient}`]??"";
+  return (
+    <HtmlTag className={`${varientClassName} ${fontClassNames}`}>
+      {" "}
+      {children}
+    </HtmlTag>
+  );
 };
 
 export default Typography;

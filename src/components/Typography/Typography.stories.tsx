@@ -28,5 +28,6 @@ export const Default: Story = {
     fontFamily: "Montserrat",
     fontWeight: "bold",
     fontSize: "2xl",
+    varient: "cardTitle",
   },
 };
