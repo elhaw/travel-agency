@@ -6,9 +6,9 @@ declare namespace ITypography {
     fontSize: FontSizes;
     htmlTag: HeadingTag;
     children: string;
-    className?: string;
     fontWeight: FontWight;
     fontFamily: FontFamilies;
+    varient?: "sectionTitle" | "subSectionTitle" | "cardTitle" | "cardTag";
   }
 }
 

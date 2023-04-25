@@ -1,3 +1,19 @@
+.sectionTitle {
+  @apply font-Montserrat text-4xl font-semibold text-black;
+}
+
+.subSectionTitle {
+  @apply font-Montserrat text-base font-normal text-blackishgreen;
+}
+
+.cardTitle {
+  @apply font-Montserrat text-lg font-semibold text-blackishgreen;
+}
+
+.cardTag {
+  @apply font-Montserrat text-base font-medium text-black;
+}
+
 .font-xs {
   @apply text-xs;
 }

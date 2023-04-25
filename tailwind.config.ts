@@ -8,7 +8,7 @@ export default {
       white: "#ffffff",
       black: "#000000",
       blackishgreen: {
-        DEFAULT: "#11221",
+        DEFAULT: "#112211",
       },
       mintgreen: {
         DEFAULT: "#8DD3BB",
@@ -43,6 +43,11 @@ export default {
     fontFamily: {
       Montserrat: ["Montserrat"],
       Tradegothic: ["Tradegothic"],
+    },
+    boxShadow: {
+      "md-green-100": "0px 4px 16px rgba(17, 34, 17, 0.05)",
+      "md-teal-200": "0px 4px 16px rgba(141, 211, 187, 0.15)",
+      "lg-green-200": "2px 4px 16px rgba(17, 34, 17, 0.1)",
     },
     extend: {
       borderRadius: {
